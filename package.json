@@ -1,0 +1,13 @@
+{
+  "name": "testcafe-couchbase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "testcafe chrome test.js"
+  },
+  "dependencies": {
+    "couchbase": "3.1.1",
+    "testcafe": "1.8.2"
+  }
+}
