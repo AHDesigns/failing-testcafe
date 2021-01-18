@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "testcafe chrome test.js"
+    "start": "testcafe 'chromium --headless --no-sandbox' test.js"
   },
   "dependencies": {
     "couchbase": "3.1.1",
